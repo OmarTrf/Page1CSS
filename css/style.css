@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+/*Home*/
+section.home{
+	width: 100%;
+	height: 600px;
+	background-image: url("../img/pencil.jpg");
+	background-size: cover;
+}
+section.home ul{
+	text-align: center;
+	list-style: none;
+}
+section.home ul li{
+	display: inline-block;
+	padding: 20px; 
+}
+section.home ul li a{
+	color: #fff;
+	font-size: 19px;
+	text-decoration: none;
+}
+/*scroll-nav*/
+header.scroll-nav{
+	width: 80%;
+	height: 65px;
+	background: rgba(0,0,0,0.8);
+	color: #ddd;
+	position: fixed;
+	left: 10%;
+	top: 0;
+	z-index: 1000;
+	display: none;
+}
+section.home .best{
+	width: 400px;
+	height: 200px;
+	margin:150px auto;
+	text-align: center;
+	padding-top: 20px;
+}
+section.home .best p{
+	color: #fff;
+}
+section.home .best p:nth-of-type(1){
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+section.home .best p:nth-of-type(2){
+   font-size: 25px;
+   letter-spacing: 1.5px;
+   word-spacing: 2px;
+   margin-top: 20px;
+}
+/*About*/
+section.about{
+	width: 100%;
+	height: 510px;
+	background: url("../img/kids.jpg");
+	background-size: cover;
+	position: relative;
+}
+section.about .partAbout{
+	width: 40%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	float: right;
+	margin-right: 40px;
+}
+section.about .partAbout h2,section.service .partService h2{
+	font-size: 2.5em;
+	margin: 20px auto; 
+	padding-left: 10px;
+	color: #fff;
+}
+section.about .partAbout p,section.service .partService p{
+	font-size: 20px;
+	padding: 15px 35px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	color: #eee;
+}
+section.about .partAbout button ,section.service .partService button{
+	width: 120px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 35px;
+	border: 1px solid #fff;
+	background: transparent;
+	border-radius: 10px;
+	transition: all 1s ease-in-out;
+}
+section.about .partAbout button a ,section.service .partService button a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+
+}
+section.about .partAbout button:hover,section.service .partService button:hover{
+	background: #111;
+	border: 1px solid #fff;
+}
+/*Service*/
+section.service{
+	width: 100%;
+	height:540px;
+	background: url("../img/fleur.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+section.service .partService{
+	width: 40%;
+	height: 100%;
+	float: left;
+	background: rgba(0,0,0,0.5);
+	margin-left: 40px;
+}
+/*Testimonial*/
+section.Testimonial{
+	width: 100%;
+	height: 600px;
+	background: url("../img/people.jpg");
+	background-size: cover;
+	background-position: center;
+}
+section.Testimonial h2{
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-top: 20px;	
+	color: #222;
+}
+section.Testimonial .parts{
+	margin-top: 5%;
+	width: 30%;
+	height: 65%;
+	float: left;
+	background: rgba(0,0,0,0.5);
+	margin-left: 2.5%;
+}
+section.Testimonial .parts h3{
+	text-align: center;
+	font-weight: bold;
+	color: #ddd;
+	font-size: 2em;
+	margin: 30px auto;
+	letter-spacing: 1px;
+}
+section.Testimonial .parts p{
+	margin: 15px 25px; 
+	font-size: 19px;
+	text-align: justify;
+	line-height: 1.5;
+	color: #ddd;
+}
+section.Testimonial .parts button{
+	margin-top: 25px;
+	margin-left: 30%;
+	width: 130px;
+	height: 40px;
+    background: transparent;
+    border:1px solid #ddd;
+    border-radius: 5%;
+}
+section.Testimonial .parts button a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #ddd;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
